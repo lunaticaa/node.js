@@ -19,4 +19,6 @@
 // global.setTimeout();
 
 // modularity script
-console.log(module);
+// console.log(module);
+var logger = require("./logger");
+console.log(logger);
